@@ -1,0 +1,16 @@
+name: Ali Asad
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  Demo:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: greeting:
+       RUN: echo "Hello from Asad"
+        
+  
+  
