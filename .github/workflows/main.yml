@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: greeting:
-       RUN: echo "Hello from Asad"
+      - name: greetings
+        run: echo "hello from ali"
+    
+   
         
   
   
